@@ -9,6 +9,8 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/fast_tip.css">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -18,31 +20,58 @@
 		<div class="navbar-header">
 				<p class="navbar-text">Fast Tip</p>
 		</div>
-		<p class="navbar-text navbar-right"><a href="settings.html"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> </a></p>
+
 	</div>
 </nav>
 
 <div class="container-fluid">
 
 	<div class="ecran"> 
+
+		
 		<label>Entrez le prix</label> <br>
-		<input type="number" class="form-control" step="any" value="" id="ecran1"><br> 
+		<input type="number" class="form-control" step="any" value="" id="ecran2"><br> 
 	</div>
 
-	  <div class="btn btn-success" id="monBouton" onclick="calculer()">Valider</div> 
+
+	<div class="container-fluid">
+		<div class="settings"> 
+			<label>Entrez le pourcentage que vous voulez</label> <br>
+			<input type="number" class="form-control" step="any" value="" id="ecran1"><br> 
+		</div>
+
+
+
+	</div>
+	  <div class="btn btn-success" id="monBouton" onclick="calcul()">Valider</div> 
+
+
 
 	<div class="resultat">
 		<label>Pourboire :</label> 
-		<input type="number" class="form-control" step="any" value="" id="ecran_pourboire" disabled><br> 
+		<input type="number" class="form-control" step="any" value="" id="ecran3" disabled><br> 
 		<label>Total :</label> 
-		<input type="number" class="form-control" step="any" value="" id="ecran_total" disabled><br> 
+		<input type="number" class="form-control" step="any" value="" id="ecran4" disabled><br> 
 	</div>
+
+
 
 </div>
 
 
 
+
+
+
+<h1></h1>
+
+
+
+
+
+
+
 </body>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 <script src="js/script.js"></script>
 </html>
