@@ -2,6 +2,15 @@ body{
     width: 100%;
 }
 
+h1{
+
+
+  font-family: 'Rammetto One', cursive;
+}
+label{
+
+    font-family: 'Wendy One', sans-serif;
+}
 .glyphicon{
     font-size: 30px;
     margin-right: 20px;
