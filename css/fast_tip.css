@@ -12,10 +12,12 @@ body{
 
 .btn{
     margin-bottom: 10%;
-    width: 20%;
+
     background-color: #5aa6b9;
     color: white;
     border:none;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 18px;
 }
 
 .btn:hover{
@@ -34,4 +36,13 @@ body{
 .navbar-text{
     font-size: 25px;
     color: white !important;
+}
+
+h1{
+    font-family: 'Rammetto One', cursive;
+}
+
+label{
+    font-family: 'Wendy One', sans-serif;
+    font-size: 19px;
 }
