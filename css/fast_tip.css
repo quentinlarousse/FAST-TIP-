@@ -1,5 +1,7 @@
 body{
     width: 100%;
+    background-color: #c6e6f1;
+    color: #5aa6b9;
 }
 
 .glyphicon{
@@ -7,16 +9,29 @@ body{
     margin-right: 20px;
 }
 
-.form-control{
-    width: 60%;
-}
 
 .btn{
     margin-bottom: 10%;
-    width: 100%;
+    width: 20%;
+    background-color: #5aa6b9;
+    color: white;
+    border:none;
 }
 
+.btn:hover{
+    background-color: rgba(90, 166, 185, 0.62);
+    color: white;
+}
+
+.bouton{
+    text-align: center;
+}
+
+.navbar{
+    background-color: #5aa6b9;
+}
 
 .navbar-text{
     font-size: 25px;
+    color: white !important;
 }
