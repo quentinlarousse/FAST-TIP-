@@ -11,28 +11,34 @@
 <link rel="stylesheet" type="text/css" href="css/fast_tip.css">
 </head>
 <body>
-	<nav class="navbar navbar-default"> 	<div class="container-fluid"> 
-		<div class="navbar-header"> 
-			<a class="navbar-brand" href="#"> 
-				Coucou 
-			</a>   
-		</div> 
-		<p class="navbar-text navbar-right"> 
-			<a href="#" class="navbar-link"> 
-				<span class="glyphicon glyphicon-cog" aria-hidden="true"></span> 
-			</a> 
-		</p> 
-	</div> 
-	</nav>   
+
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+				<p class="navbar-text">Fast Tip</p>
+		</div>
+		<p class="navbar-text navbar-right"><a href="settings.html"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> </a></p>
+	</div>
+</nav>
+
+<div class="container-fluid">
+
 	<div class="ecran"> 
-		<label>Ecran 1</label> 
-		<input type="number" step="any" value="" id="ecran1">
-	</div><br> 
-	<label>Ecran 2</label> 
-	<input type="number" step="any" value="" id="ecran2"><br> 
+		<label>Entrez le prix</label> <br>
+		<input type="number" class="form-control" step="any" value="" id="ecran1"><br> 
 	</div>
 
-	  <div class="btn btn-default" id="monBouton" onclick="calculer()">=</div> 
+	  <div class="btn btn-success" id="monBouton" onclick="calculer()">Valider</div> 
+
+	<div class="resultat">
+		<label>Pourboire :</label> 
+		<input type="number" class="form-control" step="any" value="" id="ecran_pourboire" disabled><br> 
+		<label>Total :</label> 
+		<input type="number" class="form-control" step="any" value="" id="ecran_total" disabled><br> 
+	</div>
+
+</div>
 
 
 
